@@ -29,4 +29,7 @@ d = True # Boolean
 e = None # None
 
 
+# List, Dictionary, Set  ------ are Mutable Datatypes of python
+
+
 
