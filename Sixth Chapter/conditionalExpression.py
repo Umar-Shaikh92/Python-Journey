@@ -25,18 +25,17 @@ else:
 
 
 
-# age = 21
+age = 21
 
-# if age >= 18 and age <= 60:
-#     print("Working age")
-# else:
-#     print("Study age") 
+if age >= 18 and age <= 60:
+    print("Working age")
+else:
+    print("Study age") 
     
     
     
-    
-    
+      
 # Conditional Expression (Ternary Operator)
-# age = 20
-# status = "Adult" if age >= 18 else "Minor"
-# print(status)
+age = 20
+status = "Adult" if age >= 18 else "Minor"
+print(status)
