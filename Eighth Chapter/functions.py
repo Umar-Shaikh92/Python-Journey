@@ -99,7 +99,7 @@ print(hello())   # When a function has no return, Python automatically returns N
 
 
 def countdown(n):
-    if n == 0:      # Base case
+    if n == 0:      # Base case, (if no base case the functions become infinite)
         return
     print(n)
     countdown(n - 1)   # Recursive call
