@@ -10,7 +10,20 @@
 l = [1, "hello", 8]
 for item in l:
  print(item)
- 
+
+
+
+# Printing Values from Dictionary
+my_dict = {
+ "name": "umar",
+ "car": "BYD",
+ "bike": "kawasaki"
+}
+
+for value in my_dict.values():
+ print(value)
+
+
  
 #  Range function in python
 # range(start, stop, step_size)
